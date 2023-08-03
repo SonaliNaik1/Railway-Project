@@ -2,13 +2,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import BrowserRouter and other Router-related components
 
-import NavbarComponent from "../SearchPage/NavbarComponent"
+import NavbarComponent from "./NavbarComponent"
+import ShowTrains from "./ShowTrains"
 import FooterComponent from "../SearchPage/FooterComponent"
 
-function SearchHome() {
+function AdminDashboard() {
   return (
     <div>
+       
       <NavbarComponent />
+      <ShowTrains />
       <FooterComponent />
 
     </div>
@@ -17,4 +20,4 @@ function SearchHome() {
   );
 }
 
-export default SearchHome;
+export default AdminDashboard;
