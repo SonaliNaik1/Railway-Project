@@ -37,7 +37,7 @@ const CardComponent = () => {
       setShow(false)
       Swal.fire({
         toast: true,
-        icon: 'failure',
+        icon: 'error',
         title: "Please Enter Valid Date",
         position: 'top',
         showConfirmButton: false,
